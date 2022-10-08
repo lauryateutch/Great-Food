@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'connection',
+    loadChildren: () => import('./views/connection/connection.module').then( m => m.ConnectionPageModule)
+  },
 ];
 
 @NgModule({
