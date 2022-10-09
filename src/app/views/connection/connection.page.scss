@@ -54,8 +54,9 @@ div>ion-button{
 }
 
 ion-text{
-    align-items: center;
-    font-size: 44px;
+    text-align: center;
+    
+    font-family: system-ui;
     position: absolute;
     margin-top: -14px;
 }

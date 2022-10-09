@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'connection',
     loadChildren: () => import('./views/connection/connection.module').then( m => m.ConnectionPageModule)
+  },  {
+    path: 'list-plat',
+    loadChildren: () => import('./views/list-plat/list-plat.module').then( m => m.ListPlatPageModule)
   },
+
 ];
 
 @NgModule({
